@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Out-of-band energy (fabrication proxy) and band-limited PSNR across arms; mean$\pm$std over 6 units (2 architectures $\times$ 3 seeds). The paired block reports fine-tune-to-control ratios within units.}
+\label{tab:main}
+\begin{tabular}{lcc}
+\toprule
+Arm & Out-of-band energy & PSNR (dB) \\
+\midrule
+Raw baseline (20 ep) & $0.0210 \pm 0.0073$ & $16.5 \pm 0.4$ \\
+Bandwidth-matched baseline (20 ep) & $0.0066 \pm 0.0006$ & $31.7 \pm 1.3$ \\
+Half-bandwidth baseline (20 ep) & $0.0036 \pm 0.0004$ & $22.1 \pm 1.2$ \\
+Raw-continued control (+4 ep) & $0.0238 \pm 0.0077$ & $16.4 \pm 0.5$ \\
+Matched fine-tune (4 ep) & $0.0074 \pm 0.0003$ & $29.8 \pm 0.9$ \\
+Half fine-tune (4 ep) & $0.0043 \pm 0.0004$ & $21.8 \pm 0.2$ \\
+\midrule
+\multicolumn{3}{l}{Paired (fine-tune vs.\ control, within unit)} \\
+Matched fine-tune ratio & $0.34 \pm 0.11$ & reduced 6/6 \\
+Half fine-tune ratio & $0.20 \pm 0.08$ & reduced 6/6 \\
+\bottomrule
+\end{tabular}
+\end{table}

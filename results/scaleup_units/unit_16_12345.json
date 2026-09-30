@@ -1,0 +1,8 @@
+{"arch": 16, "seed": 12345, "runs": [
+ {"arm": "baseline_raw", "psnr_bandlimited": 16.52, "out_of_band_energy": 0.01723, "rel_fwd_consistency": 0.37},
+ {"arm": "baseline_matched", "psnr_bandlimited": 30.92, "out_of_band_energy": 0.00632, "rel_fwd_consistency": 0.3905},
+ {"arm": "baseline_half", "psnr_bandlimited": 20.56, "out_of_band_energy": 0.00323, "rel_fwd_consistency": 0.4679},
+ {"arm": "raw_continued_control", "psnr_bandlimited": 16.54, "out_of_band_energy": 0.0199, "rel_fwd_consistency": 0.3681},
+ {"arm": "finetune_matched", "psnr_bandlimited": 29.0, "out_of_band_energy": 0.00719, "rel_fwd_consistency": 0.3977},
+ {"arm": "finetune_half", "psnr_bandlimited": 21.74, "out_of_band_energy": 0.00446, "rel_fwd_consistency": 0.3737}],
+ "wall_s": 140}

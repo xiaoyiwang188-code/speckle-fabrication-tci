@@ -1,0 +1,311 @@
+{
+ "checks": [
+  {
+   "claim": "raw baseline oob 0.0210",
+   "paper": 0.021,
+   "data": 0.021,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "raw baseline std 0.0073",
+   "paper": 0.0073,
+   "data": 0.0073,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "matched baseline oob 0.0066",
+   "paper": 0.0066,
+   "data": 0.0066,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "matched baseline std 0.0006",
+   "paper": 0.0006,
+   "data": 0.0006,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "half baseline oob 0.0036",
+   "paper": 0.0036,
+   "data": 0.0036,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "half baseline std 0.0004",
+   "paper": 0.0004,
+   "data": 0.0004,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "ratio 3.2x raw/matched",
+   "paper": 3.2,
+   "data": 3.2,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "ratio 5.8x raw/half",
+   "paper": 5.8,
+   "data": 5.9,
+   "ok": false,
+   "note": "",
+   "resolution": "paper corrected to 5.9x"
+  },
+  {
+   "claim": "PSNR raw 16.5",
+   "paper": 16.5,
+   "data": 16.5,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "PSNR matched 31.7",
+   "paper": 31.7,
+   "data": 31.7,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "PSNR half 22.1",
+   "paper": 22.1,
+   "data": 22.1,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "matched ratio 0.34",
+   "paper": 0.34,
+   "data": 0.34,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "matched ratio std 0.11",
+   "paper": 0.11,
+   "data": 0.11,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "half ratio 0.20",
+   "paper": 0.2,
+   "data": 0.2,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "half ratio std 0.08",
+   "paper": 0.08,
+   "data": 0.08,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "6/6 matched",
+   "paper": true,
+   "data": true,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "6/6 half",
+   "paper": true,
+   "data": true,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "rel-fwd diff +0.026",
+   "paper": 0.026,
+   "data": 0.026,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "rel-fwd diff half +0.006",
+   "paper": 0.006,
+   "data": 0.005,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "control vs raw: 0.0210 -> 0.0213 (text)",
+   "paper": 0.0213,
+   "data": 0.0238,
+   "ok": false,
+   "note": "(actual control mean 0.0238 vs raw 0.0210)",
+   "resolution": "paper corrected to 0.0210 -> 0.0238 (13% increase)"
+  },
+  {
+   "claim": "rel-fwd range lo 0.37",
+   "paper": 0.37,
+   "data": 0.36,
+   "ok": false,
+   "note": "",
+   "resolution": "paper corrected to 0.36--0.40 (5 occurrences unified)"
+  },
+  {
+   "claim": "rel-fwd range hi 0.40",
+   "paper": 0.4,
+   "data": 0.4,
+   "ok": true,
+   "note": "(actual max 0.398)"
+  },
+  {
+   "claim": "base32 raw 0.026",
+   "paper": 0.026,
+   "data": 0.027,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "base16 raw 0.015",
+   "paper": 0.015,
+   "data": 0.015,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "base32 control 0.028",
+   "paper": 0.028,
+   "data": 0.03,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "base16 control 0.017",
+   "paper": 0.017,
+   "data": 0.017,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "base32 matched ratio 0.23",
+   "paper": 0.23,
+   "data": 0.25,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "base16 matched ratio 0.44",
+   "paper": 0.44,
+   "data": 0.43,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "Wiener rescaled rel-fwd lo 0.52",
+   "paper": 0.52,
+   "data": 0.517,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "Wiener rescaled rel-fwd hi 0.55",
+   "paper": 0.55,
+   "data": 0.546,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "~40% higher (mean 0.53 vs 0.38)",
+   "paper": 0.4,
+   "data": 0.39,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "DL rel-fwd mean ~0.385 (range check)",
+   "paper": 0.385,
+   "data": 0.376,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "Wiener oob lo 0.0003",
+   "paper": 0.0003,
+   "data": 0.0,
+   "ok": false,
+   "note": "(zeros: 2)",
+   "resolution": "audit-scope artifact: paper text states non-zero range 0.0003--0.0032 AND separately notes two settings at numerical zero; verified consistent"
+  },
+  {
+   "claim": "Wiener oob hi 0.0032",
+   "paper": 0.0032,
+   "data": 0.0032,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "E4 ratios 0.52/0.60/0.54",
+   "paper": true,
+   "data": true,
+   "ok": true,
+   "note": "[0.522, 0.596, 0.544]"
+  },
+  {
+   "claim": "E2 sweep 0.52/0.49/0.50",
+   "paper": true,
+   "data": true,
+   "ok": true,
+   "note": "[0.522, 0.486, 0.498]"
+  },
+  {
+   "claim": "E1 dBIC -0.4/+6.0/+2.6",
+   "paper": true,
+   "data": true,
+   "ok": true,
+   "note": "[-0.4, 6.02, 2.6]"
+  },
+  {
+   "claim": "E1 perm p 0.14/0.92/0.33",
+   "paper": true,
+   "data": true,
+   "ok": true,
+   "note": "[0.14, 0.92, 0.33]"
+  },
+  {
+   "claim": "E1 max loss 14.2 dB",
+   "paper": 14.2,
+   "data": 14.2,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "grain FWHM 1.93px",
+   "paper": 1.93,
+   "data": 1.93,
+   "ok": true,
+   "note": ""
+  },
+  {
+   "claim": "platform mean 191px",
+   "paper": 191,
+   "data": 191.0,
+   "ok": true,
+   "note": "(actual 190.8)"
+  },
+  {
+   "claim": "platform std 1.3px",
+   "paper": 1.3,
+   "data": 1.2,
+   "ok": true,
+   "note": "(actual 1.19)"
+  },
+  {
+   "claim": "2D NCC CV 1.02",
+   "paper": 1.02,
+   "data": 1.02,
+   "ok": true,
+   "note": ""
+  }
+ ],
+ "failures": 4,
+ "post_fix_status": "3 paper corrections applied + 1 audit-scope clarification; recompiled clean"
+}

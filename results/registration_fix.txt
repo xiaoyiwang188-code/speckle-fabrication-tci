@@ -1,0 +1,120 @@
+[stage1] speckle power-spectrum half-power radius: median 363.0px (n=20)
+  pair 0: alpha*=0.300 l2=0.01142
+  pair 1: alpha*=0.300 l2=0.00915
+  pair 10: alpha*=0.324 l2=0.00502
+  pair 100: alpha*=0.300 l2=0.00819
+  pair 101: alpha*=0.300 l2=0.00929
+  pair 102: alpha*=0.300 l2=0.00814
+  pair 103: alpha*=0.300 l2=0.01283
+  pair 104: alpha*=0.300 l2=0.00751
+  pair 105: alpha*=0.324 l2=0.00222
+  pair 106: alpha*=0.300 l2=0.00644
+  pair 107: alpha*=0.324 l2=0.00380
+  pair 108: alpha*=0.300 l2=0.01071
+  pair 109: alpha*=0.300 l2=0.00847
+  pair 11: alpha*=0.300 l2=0.01112
+  pair 110: alpha*=0.300 l2=0.01251
+[stage2] alpha* median=0.300 CV=0.031
+[stage3] NCC matched=0.991 mismatched=0.990 t=0.98
+REG_JSON_BEGIN
+{
+ "stage1_system_bandwidth": {
+  "speckle_spectrum_halfpower_px": 363.0,
+  "n": 20
+ },
+ "stage2_scale_registration": {
+  "alpha_star_median": 0.3,
+  "alpha_cv": 0.03149606299212602,
+  "per_pair": [
+   {
+    "id": 0,
+    "alpha": 0.3,
+    "match_l2": 0.01142
+   },
+   {
+    "id": 1,
+    "alpha": 0.3,
+    "match_l2": 0.00915
+   },
+   {
+    "id": 10,
+    "alpha": 0.324,
+    "match_l2": 0.00502
+   },
+   {
+    "id": 100,
+    "alpha": 0.3,
+    "match_l2": 0.00819
+   },
+   {
+    "id": 101,
+    "alpha": 0.3,
+    "match_l2": 0.00929
+   },
+   {
+    "id": 102,
+    "alpha": 0.3,
+    "match_l2": 0.00814
+   },
+   {
+    "id": 103,
+    "alpha": 0.3,
+    "match_l2": 0.01283
+   },
+   {
+    "id": 104,
+    "alpha": 0.3,
+    "match_l2": 0.00751
+   },
+   {
+    "id": 105,
+    "alpha": 0.324,
+    "match_l2": 0.00222
+   },
+   {
+    "id": 106,
+    "alpha": 0.3,
+    "match_l2": 0.00644
+   },
+   {
+    "id": 107,
+    "alpha": 0.324,
+    "match_l2": 0.0038
+   },
+   {
+    "id": 108,
+    "alpha": 0.3,
+    "match_l2": 0.01071
+   },
+   {
+    "id": 109,
+    "alpha": 0.3,
+    "match_l2": 0.00847
+   },
+   {
+    "id": 11,
+    "alpha": 0.3,
+    "match_l2": 0.01112
+   },
+   {
+    "id": 110,
+    "alpha": 0.3,
+    "match_l2": 0.01251
+   }
+  ],
+  "search_range": [
+   0.3,
+   3.0
+  ]
+ },
+ "stage3_prereg_check": {
+  "ncc_matched": 0.991,
+  "ncc_mismatched": 0.99,
+  "welch_t": 0.98,
+  "n_pairs": 15,
+  "SUCCESS": false
+ },
+ "preregistered_criteria": "alpha CV<0.2 AND matched NCC>0.5 AND Welch t>3",
+ "model_correction": "linear cross-spectral OTF invalid for speckle; autocorr (Siegert) domain used instead"
+}
+REG_JSON_END

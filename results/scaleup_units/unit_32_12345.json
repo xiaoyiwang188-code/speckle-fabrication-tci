@@ -1,0 +1,43 @@
+{
+ "arch": 32,
+ "seed": 12345,
+ "runs": [
+  {
+   "arm": "baseline_raw",
+   "psnr_bandlimited": 16.1,
+   "out_of_band_energy": 0.02301,
+   "rel_fwd_consistency": 0.3661
+  },
+  {
+   "arm": "baseline_matched",
+   "psnr_bandlimited": 32.94,
+   "out_of_band_energy": 0.00582,
+   "rel_fwd_consistency": 0.3863
+  },
+  {
+   "arm": "baseline_half",
+   "psnr_bandlimited": 22.11,
+   "out_of_band_energy": 0.00354,
+   "rel_fwd_consistency": 0.3702
+  },
+  {
+   "arm": "raw_continued_control",
+   "psnr_bandlimited": 16.14,
+   "out_of_band_energy": 0.02751,
+   "rel_fwd_consistency": 0.3654
+  },
+  {
+   "arm": "finetune_matched",
+   "psnr_bandlimited": 30.44,
+   "out_of_band_energy": 0.0075,
+   "rel_fwd_consistency": 0.3941
+  },
+  {
+   "arm": "finetune_half",
+   "psnr_bandlimited": 21.73,
+   "out_of_band_energy": 0.00441,
+   "rel_fwd_consistency": 0.3699
+  }
+ ],
+ "wall_s": 179
+}

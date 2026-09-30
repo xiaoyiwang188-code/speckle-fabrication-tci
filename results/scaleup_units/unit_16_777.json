@@ -1,0 +1,7 @@
+{"arch": 16, "seed": 777, "runs": [
+ {"arm": "baseline_raw", "psnr_bandlimited": 16.76, "out_of_band_energy": 0.0131, "rel_fwd_consistency": 0.3765},
+ {"arm": "baseline_matched", "psnr_bandlimited": 29.6, "out_of_band_energy": 0.00684, "rel_fwd_consistency": 0.3932},
+ {"arm": "baseline_half", "psnr_bandlimited": 24.14, "out_of_band_energy": 0.00417, "rel_fwd_consistency": 0.3871},
+ {"arm": "raw_continued_control", "psnr_bandlimited": 16.72, "out_of_band_energy": 0.01551, "rel_fwd_consistency": 0.3695},
+ {"arm": "finetune_matched", "psnr_bandlimited": 29.02, "out_of_band_energy": 0.00706, "rel_fwd_consistency": 0.394},
+ {"arm": "finetune_half", "psnr_bandlimited": 21.77, "out_of_band_energy": 0.00476, "rel_fwd_consistency": 0.3746}]}

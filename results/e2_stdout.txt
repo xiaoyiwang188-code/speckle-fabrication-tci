@@ -1,0 +1,54 @@
+E2_JSON_BEGIN
+{
+ "design": {
+  "r_aperture": 6,
+  "r_mtf": 12.0,
+  "ntrain": 1200,
+  "arms": [
+   "raw_20ep",
+   "raw_continued_4ep(control)",
+   "matched_ft_1/2/4ep",
+   "wiener"
+  ],
+  "pre_registered": "no-reference primary endpoints; compute-matched control; fine-tune sweep"
+ },
+ "results": {
+  "raw_20ep": {
+   "psnr_bandlimited": 17.72,
+   "out_of_band_energy": 0.01732,
+   "rel_fwd_consistency": 0.4033
+  },
+  "raw_continued_4ep": {
+   "psnr_bandlimited": 17.33,
+   "out_of_band_energy": 0.02167,
+   "rel_fwd_consistency": 0.3992
+  },
+  "matched_ft_1ep": {
+   "psnr_bandlimited": 24.49,
+   "out_of_band_energy": 0.01132,
+   "rel_fwd_consistency": 0.4491
+  },
+  "matched_ft_2ep": {
+   "psnr_bandlimited": 27.9,
+   "out_of_band_energy": 0.01053,
+   "rel_fwd_consistency": 0.4317
+  },
+  "matched_ft_4ep": {
+   "psnr_bandlimited": 29.51,
+   "out_of_band_energy": 0.01079,
+   "rel_fwd_consistency": 0.428
+  },
+  "wiener_linear_baseline": {
+   "psnr_bandlimited": 18.17,
+   "out_of_band_energy": 0.00234,
+   "rel_fwd_consistency": 0.5859
+  },
+  "sweep_out_of_band_matched_over_control": [
+   0.522,
+   0.486,
+   0.498
+  ],
+  "verdict": "CAUSAL_EFFECT"
+ }
+}
+E2_JSON_END

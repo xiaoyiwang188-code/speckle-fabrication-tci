@@ -1,0 +1,43 @@
+{
+ "arch": 32,
+ "seed": 2024,
+ "runs": [
+  {
+   "arm": "baseline_raw",
+   "psnr_bandlimited": 16.04,
+   "out_of_band_energy": 0.03,
+   "rel_fwd_consistency": 0.3642
+  },
+  {
+   "arm": "baseline_matched",
+   "psnr_bandlimited": 32.85,
+   "out_of_band_energy": 0.00624,
+   "rel_fwd_consistency": 0.3863
+  },
+  {
+   "arm": "baseline_half",
+   "psnr_bandlimited": 21.56,
+   "out_of_band_energy": 0.00308,
+   "rel_fwd_consistency": 0.3694
+  },
+  {
+   "arm": "raw_continued_control",
+   "psnr_bandlimited": 15.85,
+   "out_of_band_energy": 0.03298,
+   "rel_fwd_consistency": 0.3632
+  },
+  {
+   "arm": "finetune_matched",
+   "psnr_bandlimited": 29.69,
+   "out_of_band_energy": 0.0073,
+   "rel_fwd_consistency": 0.3902
+  },
+  {
+   "arm": "finetune_half",
+   "psnr_bandlimited": 21.77,
+   "out_of_band_energy": 0.00405,
+   "rel_fwd_consistency": 0.3706
+  }
+ ],
+ "wall_s": 181
+}

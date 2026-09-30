@@ -1,0 +1,41 @@
+E4_JSON_BEGIN
+{
+ "design": {
+  "quadrant_psfs": 4,
+  "feather_px": 16.0,
+  "r_aperture": 6,
+  "r_mtf": 12.0,
+  "note": "position-dependent operator = finite-ME proxy"
+ },
+ "results": {
+  "raw_20ep": {
+   "psnr_bandlimited": 17.45,
+   "out_of_band_energy": 0.01809
+  },
+  "raw_continued_4ep": {
+   "psnr_bandlimited": 17.45,
+   "out_of_band_energy": 0.01809
+  },
+  "matched_ft": [
+   {
+    "psnr_bandlimited": 25.4,
+    "out_of_band_energy": 0.00944
+   },
+   {
+    "psnr_bandlimited": 27.18,
+    "out_of_band_energy": 0.01078
+   },
+   {
+    "psnr_bandlimited": 28.65,
+    "out_of_band_energy": 0.00984
+   }
+  ],
+  "ratios_matched_over_control": [
+   0.522,
+   0.596,
+   0.544
+  ],
+  "verdict": "EFFECT_SURVIVES_SPATIAL_VARIATION"
+ }
+}
+E4_JSON_END

@@ -1,0 +1,66 @@
+MTF half-power radius: 12.0px (speckle grain ~ 6px)
+[sigma=0.00] trained 20ep in 105s
+[sigma=4.59] trained 3ep in 16s
+[sigma=2.29] trained 3ep in 14s
+target L2 diff raw-vs-matched: 0.03341 | raw-vs-half: 0.01911
+raw {'psnr_inband_vs_ref': 31.46, 'hf_energy_frac': 0.03521, 'bg_artifact_mse': 0.000464}
+matched {'psnr_inband_vs_ref': 28.28, 'hf_energy_frac': 0.01127, 'bg_artifact_mse': 0.000251}
+half {'psnr_inband_vs_ref': 35.52, 'hf_energy_frac': 0.00478, 'bg_artifact_mse': 0.00032}
+sweep {'blur_sigma_over_mtf': 0.0, 'psnr_vs_blurred_ref': 16.97, 'fwd_residual_mse': 0.000471}
+sweep {'blur_sigma_over_mtf': 0.5, 'psnr_vs_blurred_ref': 17.49, 'fwd_residual_mse': 0.000493}
+sweep {'blur_sigma_over_mtf': 1.0, 'psnr_vs_blurred_ref': 18.45, 'fwd_residual_mse': 0.000621}
+sweep {'blur_sigma_over_mtf': 1.5, 'psnr_vs_blurred_ref': 19.39, 'fwd_residual_mse': 0.000882}
+sweep {'blur_sigma_over_mtf': 2.0, 'psnr_vs_blurred_ref': 20.45, 'fwd_residual_mse': 0.001063}
+PILOT_JSON_BEGIN
+{
+  "mtf_radius_px": 12.0,
+  "speckle_grain_px": 6.0,
+  "decision_rules": "POSITIVE: matched.hf_energy < 0.5*raw.hf_energy and psnr drop < 0.5dB; NEGATIVE: ratio > 0.8x",
+  "stage_A_results": {
+    "raw": {
+      "psnr_inband_vs_ref": 31.46,
+      "hf_energy_frac": 0.03521,
+      "bg_artifact_mse": 0.000464
+    },
+    "matched": {
+      "psnr_inband_vs_ref": 28.28,
+      "hf_energy_frac": 0.01127,
+      "bg_artifact_mse": 0.000251
+    },
+    "half": {
+      "psnr_inband_vs_ref": 35.52,
+      "hf_energy_frac": 0.00478,
+      "bg_artifact_mse": 0.00032
+    }
+  },
+  "stage_B_sweep": [
+    {
+      "blur_sigma_over_mtf": 0.0,
+      "psnr_vs_blurred_ref": 16.97,
+      "fwd_residual_mse": 0.000471
+    },
+    {
+      "blur_sigma_over_mtf": 0.5,
+      "psnr_vs_blurred_ref": 17.49,
+      "fwd_residual_mse": 0.000493
+    },
+    {
+      "blur_sigma_over_mtf": 1.0,
+      "psnr_vs_blurred_ref": 18.45,
+      "fwd_residual_mse": 0.000621
+    },
+    {
+      "blur_sigma_over_mtf": 1.5,
+      "psnr_vs_blurred_ref": 19.39,
+      "fwd_residual_mse": 0.000882
+    },
+    {
+      "blur_sigma_over_mtf": 2.0,
+      "psnr_vs_blurred_ref": 20.45,
+      "fwd_residual_mse": 0.001063
+    }
+  ],
+  "hallucination_ratio_matched_over_raw": 0.32,
+  "verdict_A": "MIXED"
+}
+PILOT_JSON_END

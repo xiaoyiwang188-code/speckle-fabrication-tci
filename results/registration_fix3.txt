@@ -1,0 +1,107 @@
+pair 0: alpha*=2.500 NCC=0.429
+pair 1: alpha*=0.400 NCC=0.617
+pair 10: alpha*=0.400 NCC=0.789
+pair 100: alpha*=0.400 NCC=0.637
+pair 101: alpha*=0.400 NCC=0.561
+pair 102: alpha*=0.400 NCC=0.586
+pair 103: alpha*=0.400 NCC=0.522
+pair 104: alpha*=0.400 NCC=0.580
+pair 105: alpha*=0.400 NCC=0.610
+pair 106: alpha*=0.400 NCC=0.735
+pair 107: alpha*=0.400 NCC=0.644
+pair 108: alpha*=2.500 NCC=0.500
+pair 109: alpha*=0.400 NCC=0.591
+pair 11: alpha*=2.500 NCC=0.597
+pair 110: alpha*=0.400 NCC=0.735
+
+[2D NCC @ alpha_med=0.400] matched=0.598 mismatched=0.502 Welch t=3.20
+[alpha*] median=0.400 CV=1.024
+REG_JSON_BEGIN
+{
+ "per_pair": [
+  {
+   "id": 0,
+   "alpha": 2.5,
+   "ncc": 0.429
+  },
+  {
+   "id": 1,
+   "alpha": 0.4,
+   "ncc": 0.617
+  },
+  {
+   "id": 10,
+   "alpha": 0.4,
+   "ncc": 0.789
+  },
+  {
+   "id": 100,
+   "alpha": 0.4,
+   "ncc": 0.637
+  },
+  {
+   "id": 101,
+   "alpha": 0.4,
+   "ncc": 0.561
+  },
+  {
+   "id": 102,
+   "alpha": 0.4,
+   "ncc": 0.586
+  },
+  {
+   "id": 103,
+   "alpha": 0.4,
+   "ncc": 0.522
+  },
+  {
+   "id": 104,
+   "alpha": 0.4,
+   "ncc": 0.58
+  },
+  {
+   "id": 105,
+   "alpha": 0.4,
+   "ncc": 0.61
+  },
+  {
+   "id": 106,
+   "alpha": 0.4,
+   "ncc": 0.735
+  },
+  {
+   "id": 107,
+   "alpha": 0.4,
+   "ncc": 0.644
+  },
+  {
+   "id": 108,
+   "alpha": 2.5,
+   "ncc": 0.5
+  },
+  {
+   "id": 109,
+   "alpha": 0.4,
+   "ncc": 0.591
+  },
+  {
+   "id": 11,
+   "alpha": 2.5,
+   "ncc": 0.597
+  },
+  {
+   "id": 110,
+   "alpha": 0.4,
+   "ncc": 0.735
+  }
+ ],
+ "alpha_reg_median": 0.4,
+ "alpha_cv": 1.024,
+ "ncc_matched": 0.598,
+ "ncc_mismatched": 0.502,
+ "welch_t": 3.2,
+ "SUCCESS": false,
+ "prereg": "alpha CV<0.15 AND matched NCC>0.5 AND Welch t>3",
+ "method": "2D autocorrelation NCC matching, grain-peak suppressed, FFT rescale sweep"
+}
+REG_JSON_END

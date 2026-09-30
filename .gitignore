@@ -1,0 +1,22 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.blg
+*.bbl
+*.fls
+*.fdb_latexmk
+*.out
+*.synctex.gz
+
+# Real-data sample (third-party; not redistributed — see DATA.md)
+artifacts/dsc_data/
+*.tif
+
+# Environment
+.venv/
+.env

@@ -1,0 +1,70 @@
+E3_JSON_BEGIN
+{
+ "design": {
+  "radii": [
+   4,
+   6,
+   12
+  ],
+  "train_extent": 0.6,
+  "test_extents": [
+   0.3,
+   0.45,
+   0.6,
+   0.75
+  ],
+  "physics_prediction": "t* rises with grain (ME angle ~ 1/grain); invariance => statistical",
+  "epochs": 12,
+  "seeds": [
+   12345,
+   777
+  ]
+ },
+ "per_grain": {
+  "4": {
+   "grain_px": 8.0,
+   "t_star_extents": [
+    0.6,
+    0.6
+   ],
+   "t_star_mean": 0.6,
+   "curves": [
+    33.51,
+    35.04,
+    35.0,
+    24.4
+   ]
+  },
+  "6": {
+   "grain_px": 5.33,
+   "t_star_extents": [
+    0.6,
+    0.6
+   ],
+   "t_star_mean": 0.6,
+   "curves": [
+    35.94,
+    27.81,
+    25.95,
+    20.98
+   ]
+  },
+  "12": {
+   "grain_px": 2.67,
+   "t_star_extents": [
+    0.6,
+    0.6
+   ],
+   "t_star_mean": 0.6,
+   "curves": [
+    37.47,
+    37.55,
+    34.99,
+    28.86
+   ]
+  }
+ },
+ "spearman_grain_vs_tstar": null,
+ "verdict": "INCONCLUSIVE_LOW_POWER"
+}
+E3_JSON_END

@@ -1,0 +1,188 @@
+pair 0: L_spk=191.7 L_gt=133.1 ratio=1.441
+pair 1: L_spk=191.3 L_gt=125.3 ratio=1.526
+pair 10: L_spk=191.8 L_gt=165.0 ratio=1.163
+pair 100: L_spk=191.1 L_gt=149.6 ratio=1.277
+pair 101: L_spk=190.7 L_gt=160.5 ratio=1.188
+pair 102: L_spk=189.7 L_gt=143.7 ratio=1.320
+pair 103: L_spk=189.7 L_gt=172.3 ratio=1.101
+pair 104: L_spk=190.3 L_gt=143.5 ratio=1.326
+pair 105: L_spk=189.9 L_gt=142.2 ratio=1.335
+pair 106: L_spk=191.5 L_gt=176.0 ratio=1.088
+pair 107: L_spk=192.0 L_gt=164.3 ratio=1.169
+pair 108: L_spk=190.1 L_gt=92.5 ratio=2.056
+pair 109: L_spk=189.5 L_gt=172.4 ratio=1.099
+pair 11: L_spk=188.0 L_gt=137.8 ratio=1.364
+pair 110: L_spk=191.5 L_gt=183.6 ratio=1.043
+pair 111: L_spk=192.9 L_gt=181.2 ratio=1.064
+pair 112: L_spk=189.5 L_gt=143.9 ratio=1.317
+pair 113: L_spk=190.6 L_gt=144.2 ratio=1.322
+pair 114: L_spk=191.0 L_gt=110.4 ratio=1.729
+pair 115: L_spk=192.4 L_gt=179.9 ratio=1.069
+
+[registration] ratio median=1.297 CV=0.187 (n=20)
+[bandwidth] grain FWHM median=1.93px -> system MTF support ~133px radius (52% of Nyquist)
+[amplitude fit @ alpha_reg] R2: mean=0.621 min=0.402 (n=15)
+[verdict] prereg: ratio CV<0.15 AND mean R2>0.7 -> SUCCESS=False
+REG_JSON_BEGIN
+{
+ "per_pair": [
+  {
+   "id": 0,
+   "L_spk": 191.7,
+   "L_gt": 133.1,
+   "ratio": 1.441,
+   "grain_fwhm": 1.93
+  },
+  {
+   "id": 1,
+   "L_spk": 191.3,
+   "L_gt": 125.3,
+   "ratio": 1.526,
+   "grain_fwhm": 1.87
+  },
+  {
+   "id": 10,
+   "L_spk": 191.8,
+   "L_gt": 165.0,
+   "ratio": 1.163,
+   "grain_fwhm": 2.09
+  },
+  {
+   "id": 100,
+   "L_spk": 191.1,
+   "L_gt": 149.6,
+   "ratio": 1.277,
+   "grain_fwhm": 1.91
+  },
+  {
+   "id": 101,
+   "L_spk": 190.7,
+   "L_gt": 160.5,
+   "ratio": 1.188,
+   "grain_fwhm": 1.85
+  },
+  {
+   "id": 102,
+   "L_spk": 189.7,
+   "L_gt": 143.7,
+   "ratio": 1.32,
+   "grain_fwhm": 1.59
+  },
+  {
+   "id": 103,
+   "L_spk": 189.7,
+   "L_gt": 172.3,
+   "ratio": 1.101,
+   "grain_fwhm": 1.93
+  },
+  {
+   "id": 104,
+   "L_spk": 190.3,
+   "L_gt": 143.5,
+   "ratio": 1.326,
+   "grain_fwhm": 1.71
+  },
+  {
+   "id": 105,
+   "L_spk": 189.9,
+   "L_gt": 142.2,
+   "ratio": 1.335,
+   "grain_fwhm": 1.93
+  },
+  {
+   "id": 106,
+   "L_spk": 191.5,
+   "L_gt": 176.0,
+   "ratio": 1.088,
+   "grain_fwhm": 2.0
+  },
+  {
+   "id": 107,
+   "L_spk": 192.0,
+   "L_gt": 164.3,
+   "ratio": 1.169,
+   "grain_fwhm": 1.95
+  },
+  {
+   "id": 108,
+   "L_spk": 190.1,
+   "L_gt": 92.5,
+   "ratio": 2.056,
+   "grain_fwhm": 1.68
+  },
+  {
+   "id": 109,
+   "L_spk": 189.5,
+   "L_gt": 172.4,
+   "ratio": 1.099,
+   "grain_fwhm": 1.96
+  },
+  {
+   "id": 11,
+   "L_spk": 188.0,
+   "L_gt": 137.8,
+   "ratio": 1.364,
+   "grain_fwhm": 1.94
+  },
+  {
+   "id": 110,
+   "L_spk": 191.5,
+   "L_gt": 183.6,
+   "ratio": 1.043,
+   "grain_fwhm": 2.0
+  },
+  {
+   "id": 111,
+   "L_spk": 192.9,
+   "L_gt": 181.2,
+   "ratio": 1.064,
+   "grain_fwhm": 1.88
+  },
+  {
+   "id": 112,
+   "L_spk": 189.5,
+   "L_gt": 143.9,
+   "ratio": 1.317,
+   "grain_fwhm": 1.77
+  },
+  {
+   "id": 113,
+   "L_spk": 190.6,
+   "L_gt": 144.2,
+   "ratio": 1.322,
+   "grain_fwhm": 1.95
+  },
+  {
+   "id": 114,
+   "L_spk": 191.0,
+   "L_gt": 110.4,
+   "ratio": 1.729,
+   "grain_fwhm": 1.81
+  },
+  {
+   "id": 115,
+   "L_spk": 192.4,
+   "L_gt": 179.9,
+   "ratio": 1.069,
+   "grain_fwhm": 1.98
+  }
+ ],
+ "registration": {
+  "alpha_reg_median": 1.297,
+  "ratio_cv": 0.187,
+  "n": 20
+ },
+ "system_bandwidth": {
+  "grain_fwhm_px": 1.93,
+  "mtf_support_px_radius": 132.6,
+  "fraction_of_nyquist": 0.518
+ },
+ "amplitude_fit_at_alpha": {
+  "mean_r2": 0.621,
+  "min_r2": 0.402
+ },
+ "SUCCESS": false,
+ "method": "zero-crossing radius ratio (scale invariant, robust to grain/platform amplitude mixing)",
+ "model_correction": "autocorr (Siegert) domain; linear cross-spectral OTF invalid for speckle"
+}
+REG_JSON_END

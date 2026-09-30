@@ -1,0 +1,128 @@
+[
+ {
+  "key": "li2018deep",
+  "file": "sections\\1_introduction.tex",
+  "line": 3,
+  "context": " Learning-based reconstruction has become the default computational layer in imaging through scattering media. Networks trained on paired speckle--object data now recover object structure across diffuser changes \\cite{li2018deep}, under dynamic scattering \\cite{liu2024learning}, and in real time with modest compute \\cite{zhang2024memoryless}. As reported fidelity improves, however, a separate line"
+ },
+ {
+  "key": "liu2024learning",
+  "file": "sections\\1_introduction.tex",
+  "line": 3,
+  "context": " Learning-based reconstruction has become the default computational layer in imaging through scattering media. Networks trained on paired speckle--object data now recover object structure across diffuser changes \\cite{li2018deep}, under dynamic scattering \\cite{liu2024learning}, and in real time with modest compute \\cite{zhang2024memoryless}. As reported fidelity improves, however, a separate line"
+ },
+ {
+  "key": "zhang2024memoryless",
+  "file": "sections\\1_introduction.tex",
+  "line": 3,
+  "context": " Learning-based reconstruction has become the default computational layer in imaging through scattering media. Networks trained on paired speckle--object data now recover object structure across diffuser changes \\cite{li2018deep}, under dynamic scattering \\cite{liu2024learning}, and in real time with modest compute \\cite{zhang2024memoryless}. As reported fidelity improves, however, a separate line"
+ },
+ {
+  "key": "zhang2026physical",
+  "file": "sections\\1_introduction.tex",
+  "line": 3,
+  "context": " Learning-based reconstruction has become the default computational layer in imaging through scattering media. Networks trained on paired speckle--object data now recover object structure across diffuser changes \\cite{li2018deep}, under dynamic scattering \\cite{liu2024learning}, and in real time with modest compute \\cite{zhang2024memoryless}. As reported fidelity improves, however, a separate line"
+ },
+ {
+  "key": "tivnan2024hallucination",
+  "file": "sections\\1_introduction.tex",
+  "line": 3,
+  "context": " Learning-based reconstruction has become the default computational layer in imaging through scattering media. Networks trained on paired speckle--object data now recover object structure across diffuser changes \\cite{li2018deep}, under dynamic scattering \\cite{liu2024learning}, and in real time with modest compute \\cite{zhang2024memoryless}. As reported fidelity improves, however, a separate line"
+ },
+ {
+  "key": "zhang2026physical",
+  "file": "sections\\1_introduction.tex",
+  "line": 3,
+  "context": " Learning-based reconstruction has become the default computational layer in imaging through scattering media. Networks trained on paired speckle--object data now recover object structure across diffuser changes \\cite{li2018deep}, under dynamic scattering \\cite{liu2024learning}, and in real time with modest compute \\cite{zhang2024memoryless}. As reported fidelity improves, however, a separate line"
+ },
+ {
+  "key": "long2026universal",
+  "file": "sections\\1_introduction.tex",
+  "line": 3,
+  "context": " Learning-based reconstruction has become the default computational layer in imaging through scattering media. Networks trained on paired speckle--object data now recover object structure across diffuser changes \\cite{li2018deep}, under dynamic scattering \\cite{liu2024learning}, and in real time with modest compute \\cite{zhang2024memoryless}. As reported fidelity improves, however, a separate line"
+ },
+ {
+  "key": "li2018deep",
+  "file": "sections\\2_related_work.tex",
+  "line": 5,
+  "context": "\\paragraph{Learned reconstruction through scattering media.} Deep learning entered speckle imaging with the observation that training on a class of diffusers yields networks that generalize statistically across an unseen diffuser of the same class \\cite{li2018deep}, replacing deterministic transmission-matrix inversion \\cite{popoff2010image}, whose calibration is highly sensitive to speckle decorr"
+ },
+ {
+  "key": "popoff2010image",
+  "file": "sections\\2_related_work.tex",
+  "line": 5,
+  "context": "\\paragraph{Learned reconstruction through scattering media.} Deep learning entered speckle imaging with the observation that training on a class of diffusers yields networks that generalize statistically across an unseen diffuser of the same class \\cite{li2018deep}, replacing deterministic transmission-matrix inversion \\cite{popoff2010image}, whose calibration is highly sensitive to speckle decorr"
+ },
+ {
+  "key": "li2018deep",
+  "file": "sections\\2_related_work.tex",
+  "line": 5,
+  "context": "\\paragraph{Learned reconstruction through scattering media.} Deep learning entered speckle imaging with the observation that training on a class of diffusers yields networks that generalize statistically across an unseen diffuser of the same class \\cite{li2018deep}, replacing deterministic transmission-matrix inversion \\cite{popoff2010image}, whose calibration is highly sensitive to speckle decorr"
+ },
+ {
+  "key": "liu2024learning",
+  "file": "sections\\2_related_work.tex",
+  "line": 5,
+  "context": "\\paragraph{Learned reconstruction through scattering media.} Deep learning entered speckle imaging with the observation that training on a class of diffusers yields networks that generalize statistically across an unseen diffuser of the same class \\cite{li2018deep}, replacing deterministic transmission-matrix inversion \\cite{popoff2010image}, whose calibration is highly sensitive to speckle decorr"
+ },
+ {
+  "key": "zhang2024memoryless",
+  "file": "sections\\2_related_work.tex",
+  "line": 5,
+  "context": "\\paragraph{Learned reconstruction through scattering media.} Deep learning entered speckle imaging with the observation that training on a class of diffusers yields networks that generalize statistically across an unseen diffuser of the same class \\cite{li2018deep}, replacing deterministic transmission-matrix inversion \\cite{popoff2010image}, whose calibration is highly sensitive to speckle decorr"
+ },
+ {
+  "key": "li2025cascade",
+  "file": "sections\\2_related_work.tex",
+  "line": 5,
+  "context": "\\paragraph{Learned reconstruction through scattering media.} Deep learning entered speckle imaging with the observation that training on a class of diffusers yields networks that generalize statistically across an unseen diffuser of the same class \\cite{li2018deep}, replacing deterministic transmission-matrix inversion \\cite{popoff2010image}, whose calibration is highly sensitive to speckle decorr"
+ },
+ {
+  "key": "zhang2026physical",
+  "file": "sections\\2_related_work.tex",
+  "line": 8,
+  "context": "\\paragraph{Fabrication, hallucination, and evaluation in learned imaging.} That learned reconstructions can invent content has moved from anecdote to mechanism: a recent analysis traces generalization and hallucination in scattering-media networks to physical illumination-zone structure \\cite{zhang2026physical}, and a parallel line builds quantitative assessment frameworks for scattering-imaging g"
+ },
+ {
+  "key": "long2026universal",
+  "file": "sections\\2_related_work.tex",
+  "line": 8,
+  "context": "\\paragraph{Fabrication, hallucination, and evaluation in learned imaging.} That learned reconstructions can invent content has moved from anecdote to mechanism: a recent analysis traces generalization and hallucination in scattering-media networks to physical illumination-zone structure \\cite{zhang2026physical}, and a parallel line builds quantitative assessment frameworks for scattering-imaging g"
+ },
+ {
+  "key": "tivnan2024hallucination",
+  "file": "sections\\2_related_work.tex",
+  "line": 8,
+  "context": "\\paragraph{Fabrication, hallucination, and evaluation in learned imaging.} That learned reconstructions can invent content has moved from anecdote to mechanism: a recent analysis traces generalization and hallucination in scattering-media networks to physical illumination-zone structure \\cite{zhang2026physical}, and a parallel line builds quantitative assessment frameworks for scattering-imaging g"
+ },
+ {
+  "key": "freund1988memory",
+  "file": "sections\\2_related_work.tex",
+  "line": 11,
+  "context": "\\paragraph{Forward-model-informed protocols and linear baselines.} Classical speckle physics supplies the reference structure our protocol quantifies against: the memory effect bounds shift-invariant reconstruction \\cite{freund1988memory}, speckle correlation carries object autocorrelation information \\cite{katz2014noninvasive}, and the Wiener filter gives the optimal linear reconstruction under a"
+ },
+ {
+  "key": "katz2014noninvasive",
+  "file": "sections\\2_related_work.tex",
+  "line": 11,
+  "context": "\\paragraph{Forward-model-informed protocols and linear baselines.} Classical speckle physics supplies the reference structure our protocol quantifies against: the memory effect bounds shift-invariant reconstruction \\cite{freund1988memory}, speckle correlation carries object autocorrelation information \\cite{katz2014noninvasive}, and the Wiener filter gives the optimal linear reconstruction under a"
+ },
+ {
+  "key": "wiener1949extrapolation",
+  "file": "sections\\2_related_work.tex",
+  "line": 11,
+  "context": "\\paragraph{Forward-model-informed protocols and linear baselines.} Classical speckle physics supplies the reference structure our protocol quantifies against: the memory effect bounds shift-invariant reconstruction \\cite{freund1988memory}, speckle correlation carries object autocorrelation information \\cite{katz2014noninvasive}, and the Wiener filter gives the optimal linear reconstruction under a"
+ },
+ {
+  "key": "barbastathis2019use",
+  "file": "sections\\2_related_work.tex",
+  "line": 11,
+  "context": "\\paragraph{Forward-model-informed protocols and linear baselines.} Classical speckle physics supplies the reference structure our protocol quantifies against: the memory effect bounds shift-invariant reconstruction \\cite{freund1988memory}, speckle correlation carries object autocorrelation information \\cite{katz2014noninvasive}, and the Wiener filter gives the optimal linear reconstruction under a"
+ },
+ {
+  "key": "li2018deep",
+  "file": "sections\\4_experiments.tex",
+  "line": 36,
+  "context": " The field's standard training protocol is defined over ``same-class'' diffusers \\cite{li2018deep}. If cross-diffuser transfer loss were governed by a genuine class boundary, protocol design could target class membership; if not, the label is a convenience and quantitative statistics---reported distance, measured bandwidth---should replace it. We trained twelve decoders on twelve synthetic diffuse"
+ }
+]

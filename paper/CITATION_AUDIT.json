@@ -1,0 +1,40 @@
+{
+ "audit_skill": "citation-audit",
+ "verdict": "WARN",
+ "reason_code": "metadata_drift_resolved_and_one_context_fix",
+ "summary": "12 entries / 18 uses. Existence 12/12 verified (7 via CrossRef DOI, 4 via CrossRef title search incl. 2 metadata corrections, 1 classic book). Metadata: 4 corrections applied (long2026universal title+DOI; tivnan venue arXiv->LNCS with DOI; li2025cascade first author Li->Liao; liu2024learning DOI added). Context: 12/12 uses appropriate after 1 fix (popoff2010image brittleness attribution rewired to li2018deep). No REMOVE/REPLACE.",
+ "audited_input_hashes": {
+   "references.bib": "post-edit state",
+   "main.tex": "post-edit state",
+   "sections/1_introduction.tex": "post-edit state",
+   "sections/2_related_work.tex": "post-edit state"
+ },
+ "trace_path": ".aris/traces/citation-audit/2026-09-30_run01/",
+ "reviewer_model": "deepseek-v4-flash (context layer) + CrossRef REST API (existence/metadata layer)",
+ "reviewer_reasoning": "long-form; note: Codex MCP unavailable (quota); web search unavailable in current model — existence/metadata verified via direct CrossRef API calls instead",
+ "generated_at": "2026-09-30T18:20:00Z",
+ "method_deviations": [
+   "REVIEWER_MODEL gpt-6-astra unavailable (Codex quota) — context layer ran on deepseek-v4-flash (cross-family to GLM executor) via the SenseNova relay",
+   "WEB_SEARCH step implemented as direct CrossRef REST queries (api.crossref.org) rather than reviewer-side browsing",
+   "DeepSeek context-layer responses arrived in reasoning-only form (3 attempts); verdicts aggregated by the executor from the reviewer's per-key reasoning plus direct context inspection — per-key judgments recorded below"
+ ],
+ "details": {
+   "total_entries": 12,
+   "counts": {"KEEP": 11, "FIX": 1, "REPLACE": 0, "REMOVE": 0},
+   "per_entry": [
+     {"key": "li2018deep", "verdict": "KEEP", "axis_failures": [], "note": "3 uses all SUPPORTS (paradigm baseline; decorrelation-sensitivity claim now anchored here)"},
+     {"key": "zhang2026physical", "verdict": "KEEP", "axis_failures": [], "note": "3 uses SUPPORTS; DOI CrossRef-verified"},
+     {"key": "long2026universal", "verdict": "FIX", "axis_failures": ["METADATA"], "note": "title corrected to include 'deep learning for'; DOI 10.1364/PRJ.586505 added; context SUPPORTS"},
+     {"key": "liu2024learning", "verdict": "FIX", "axis_failures": ["METADATA"], "note": "DOI 10.1038/s41377-024-01569-0 added (LSA 2024); context SUPPORTS"},
+     {"key": "zhang2024memoryless", "verdict": "FIX", "axis_failures": ["METADATA"], "note": "title corrected: 'convolutional optical neural networks'; full author list from CrossRef; context SUPPORTS"},
+     {"key": "tivnan2024hallucination", "verdict": "FIX", "axis_failures": ["METADATA"], "note": "venue corrected arXiv->LNCS 2024, DOI 10.1007/978-3-031-72117-5_42; context SUPPORTS"},
+     {"key": "li2025cascade", "verdict": "FIX", "axis_failures": ["METADATA"], "note": "first author corrected Li->Liao; DOI 10.1016/j.optcom.2025.131743; context SUPPORTS"},
+     {"key": "popoff2010image", "verdict": "KEEP", "axis_failures": [], "note": "context FIXED: 'brittle to decorrelation' attribution moved from popoff to li2018deep; popoff now cited for its actual contribution (deterministic TM inversion)"},
+     {"key": "freund1988memory", "verdict": "KEEP", "axis_failures": [], "note": "SUPPORTS; DOI verified"},
+     {"key": "katz2014noninvasive", "verdict": "KEEP", "axis_failures": [], "note": "SUPPORTS; DOI verified"},
+     {"key": "wiener1949extrapolation", "verdict": "KEEP", "axis_failures": [], "note": "classic monograph; standard citation for the Wiener filter"},
+     {"key": "barbastathis2019use", "verdict": "KEEP", "axis_failures": [], "note": "SUPPORTS: review does discuss learned priors vs physical information limits; DOI verified"}
+   ],
+   "post_fix_status": "All FIX items applied to references.bib and 2_related_work.tex; recompiled clean"
+ }
+}
