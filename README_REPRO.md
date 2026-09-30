@@ -19,9 +19,10 @@ experiments/            all experiment code
   e2_finetune_sweep.py  fine-tune-length sweep (§4.5)
   e4_spatially_varying.py spatially-varying PSF robustness (§4.5)
   s1a/s1b/s1c, unit.py, s0.py  Colab scale-up stages (§4.2-4.4)
-  merge_scaleup.py      merges unit results → paired stats + Wiener sweep
-  scaleup_b_colab.py    single-file Colab version
-  claim_audit.py        43-check numeric audit of the manuscript
+  scaleup_b_colab.py    single-file Colab version of the whole scale-up
+  claim_audit.py        47-check numeric audit of the manuscript
+  e1_sensitivity.py     collapse-exclusion sensitivity analysis (§4.6)
+  pairing_stats.py      real-data pairing statistics (see DATA.md)
 results/                raw outputs (source data for every number in the paper)
   scaleup_results.json  36 runs + paired stats + Wiener sensitivity
   scaleup_units/*.json  6 per-unit raw files (auditable unit level)
