@@ -20,3 +20,6 @@ artifacts/dsc_data/
 # Environment
 .venv/
 .env
+
+# Local tooling state (ZCode security hook artifacts)
+.mimosa/
